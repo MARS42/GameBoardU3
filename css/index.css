@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.general
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.controles
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.scoreboard
+{
+    margin: auto;
+}
+
+.encabezado
+{
+    background-color: black;
+    padding: 0.5em 0;
+}
+
+.encabezado > h2
+{
+    color: white;
+    text-align: center;
+}
+
+.equipos
+{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/dots.png);
+    background-size: 128px;
+}
+
+.equipos-light
+{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/dots.png);
+    background-size: 128px;
+    color: white;
+}
+
+.equipo
+{
+    display: flex;
+    background-color: rgba(238, 130, 238, 0.95);
+    padding: 2em 0;
+    position: relative;
+}
+
+.equipo-light
+{
+    display: flex;
+    background-color: rgba(238, 130, 238, 0.95);
+    padding: 2em 0;
+    color: white;
+}
+
+.lados
+{
+    display: flex;
+    justify-content: center;
+    width: 256px;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.lados > img
+{
+    margin-right: 0.5em;
+    width: 15%;
+}
+
+.diff
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.miembros
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.miembro
+{
+    display: flex;
+    background-color: rgba(65, 65, 65, 0.171);
+    text-align: center;
+    margin: 0.2em;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0.3em 1em;
+    border-radius: 4px;
+}
+
+.miembro-light
+{
+    display: flex;
+    background-color: rgba(192, 192, 192, 0.171);
+    text-align: center;
+    margin: 0.2em;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0.3em 1em;
+    border-radius: 4px;
+}
+
+.miembro > .nombre-miembro
+{
+    width: 96px;
+}
+
+.miembro > .copas-miembro
+{
+    display: flex;
+    margin-right: 72px;
+}
+
+.miembro > .copas-miembro > h4
+{
+    width: 32px;
+}
+
+.miembro > .total-miembro
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 72px;
+    min-height: 100%;
+}
+
+
+.miembro > .total-miembro > h4
+{
+    background-color: rgba(255, 255, 255, 0.25);
+    min-width: 2.5em;
+}
+
+
+.miembro > .total-miembro > h5
+{
+    margin: auto;
+}
+
+.miembro > .total-miembro > img
+{
+    width: 38%;
+    margin: auto;
+}
